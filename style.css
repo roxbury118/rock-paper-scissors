@@ -1,0 +1,54 @@
+html,body{
+  height:100%;
+  margin:0;
+}
+
+  body{
+    background:linear-gradient(to bottom, #8b98a4cb 10%, #54758fdc 65%, #1245c6e9 110%);
+    
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.click-button{
+  background-color: transparent;
+  border: none;
+}
+ .title{
+  font-size: 30px;
+  font-weight: bold;
+ } 
+.icon{
+  height: 50px;
+  background: transparent;
+  border-width: 4px;
+  border-style: solid;
+  border-color: aliceblue;
+width: 120px;
+height:120px;
+border-radius: 60px;
+margin-right: 10px;
+cursor: pointer;
+}
+.js-result{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.js-score{
+margin-top: 60px;
+}
+.reset-button{
+  background-color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor:pointer;
+  
+}
+.auto-play{
+  background-color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor:pointer;
+  
+}
